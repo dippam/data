@@ -1,0 +1,9 @@
+{
+    "denominations": [
+	{ "12": "Church of Ireland" },
+	{ "13": "Roman Catholic" },
+	{ "14": "Presbyterian" },
+	{ "15": "Methodist" },
+	{ "16": "Other" }
+    ]
+}
