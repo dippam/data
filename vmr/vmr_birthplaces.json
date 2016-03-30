@@ -1,0 +1,22 @@
+{
+    "birthplaces": [
+	{ "40650": "Antrim" },
+	{ "40652": "Armagh" },
+	{ "40651": "Belfast" },
+	{ "40657": "Belfast Tyrone Armagh" },
+	{ "40671": "Derry Londonderry City" },
+	{ "40677": "Derry Londonderry County" },
+	{ "40655": "Donegal" },
+	{ "40646": "Down" },
+	{ "40682": "Dublin" },
+	{ "40673": "England" },
+	{ "40658": "Fermanagh" },
+	{ "40684": "Fermanagh Tyrone" },
+	{ "40679": "India" },
+	{ "40681": "Limerick" },
+	{ "40674": "Monaghan" },
+	{ "40675": "Sligo" }, 
+	{ "40654": "Tyrone" },
+	{ "40676": "Wales" }
+    ]
+}
