@@ -1,0 +1,28 @@
+{
+    "current_residences": [
+	{ "40650": "Antrim" },
+	{ "40652": "Armagh" },
+	{ "40651": "Belfast" },
+	{ "40678": "Belfast North Down" },
+	{ "40671": "Derry Londonderry City" },
+	{ "40677": "Derry Londonderry County" },
+	{ "40655": "Donegal" },
+	{ "40646": "Down" },
+	{ "40663": "England East Anglia" }, 
+	{ "40647": "England East Midlands" }, 
+	{ "40661": "England South East" }, 
+	{ "40658": "Fermanagh" },
+	{ "40649": "Liverpool" },
+	{ "40660": "London" },
+	{ "40672": "Longford" }, 
+	{ "40674": "Monaghan" },
+	{ "40664": "New Zealand" },
+	{ "40656": "Ontario" },
+	{ "40659": "Ottawa" },
+	{ "40665": "Scotland"},
+	{ "40680", "Seattle USA"},
+	{ "40653": "Toronto"},
+	{ "40654": "Tyrone"},
+	{ "40648": "Yorkshire" }
+    ]
+}
