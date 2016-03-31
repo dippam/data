@@ -1,0 +1,207 @@
+{
+    "VMR-001": {
+	"Summary": "Angela, 50s, from the Omagh area in west County Tyrone, emigrated from NI in 1969 to join her military spouse in England. Over the years they were posted to Malaysia, Singapore, Bahrain, Portugal and Cyprus, returning to their native Tyrone permanently in 1990.",
+	"Gender": "Female",
+	"Age": "50s",
+	"Denomination": "Church of Ireland",
+	"Birthplace": "Tyrone",
+	"Childhood Residence": "Tyrone",
+	"Current Residence": "Tyrone",
+	"Date of Interview": "2004-07-09",
+	"Destinations": [ "Bahrain", "Cyprus", "England", "Malaysia", "Portugal", "Singapore" ],
+	"Emigration Decades": ["1960", "1970", "1980"],
+	"Return Decades": ["1990"],
+	"Duration": "00:57",
+	"Tracks": [
+	    { 
+		"id": "1",
+		"title": "Birth, Omagh, moved to Belfast at age 16",
+		"length": "0:57"
+	    },
+	    {
+		"id": "2",
+		"title": "Childhood, family, Omagh, Drumnakilly School, Carrickmore Road, country school, then Omagh Academy",
+		"length": "2:39"
+	    },
+	    {
+		"id": "3",
+		"title": "Move to Belfast, job as pharmacist's assistant near Finaghy, urban life, adjustment",	
+                "duration": "2:19"
+            },
+	    {
+		"id": "4",
+		"title": "Belfast, social life, ballroom dances, Floral Hall, country dances in Omagh, old time dances",
+		"duration": "2:38"
+	    },
+	    {
+		"id": "5",
+		"title": "Omagh, social life, tap dancing, performance",
+		"duration": "1:45"
+	    },
+	    {
+		"id": "6",
+		"title": "Dancing, religion, Irish set dancing",
+		"duration": "4:14"
+	    },
+	    {
+		"id": "7",
+		"title": "Tap dancing, soft shoe, clog dancing",
+		"duration": "2:00"
+	    },
+	    {
+		"id": "8",
+		"title": "Meeting husband, marriage",
+		"duration": "3:12"
+	    },
+	    {
+		"id": "9",
+		"title": "Emigration, decision, husband in British military, move to England, marriage allowance",
+		"duration": "1:52"
+	    },
+	    {
+		"id": "10",
+		"title" "England, journey, mobile home, accommodation, child allowance",
+		"duration": "1:04"
+	    },
+	    {
+		"id": "11",
+		"title": "England, Lancashire, journey, impressions, job in shoe shop, retail, Lytham Saint Anneâ€™s, mobile home, accommodation, managing money, finances",
+		"duration": "3:10"
+	    },
+	    {
+		"id": "12",
+		"title": "England, missing home, family, sister, homesickness",
+		"duration": "1:22"
+	    },
+	    { 
+		"id": "13", 
+		"title": "Posting to Penang, Malaysia, then to Singapore",
+		"duration": "0:49"
+	    },
+	    {
+		"id": "14",
+		"title": "Penang, Malaysia, impressions, accommodation, Australian Air Force, expat community, Chinese",
+		"duration": "1:14"
+	    },
+	    { 
+		"id": "15",
+		"title": "Penang, Malaysia, lifestyle, military spouses, servants, employment opportunities, language, shopping",
+		"duration": "2:02"
+	    },
+	    {
+		"id": "16",
+		"title": "Penang, Malaysia, climate, rainy season, tropical",
+		"duration": "2:30"
+	    },
+	    {
+		"id": "17",
+		"title": "Move to Singapore, impressions, accommodation, change",
+		"duration": "1:59"
+	    },
+	    {
+		"id": "18",
+		"title": "Singapore, markets, bargaining, shopping, credit, comparison with Thailand",
+		"duration": "5:41"
+	    },
+	    {
+		"id": "19",
+		"title": "Return, decision, Cypress, Germany",
+		"duration": "0:58"
+	    },
+	    {
+		"id": "20",
+		"title": "Singapore, change, building, modernisation, Macan stalls, food",
+		"duration": "3:14"
+	    },
+	    {
+		"id": "21",
+		"title": "Singapore, Europeans, servants, tasks, cooking, food, prawns",
+		"duration": "1:49"
+	    },
+	    {
+		"id": "22",
+		"title": "Singapore, visit, change, building",
+		"duration": "1:07"
+	    },
+	    {
+		"id": "23",
+		"title": "Tsunami, Thailand",
+		"duration": "4:19"
+	    },
+	    {
+		"id": "24",
+		"title": "Far East, Malaysia, impressions, religion, Muslim regions, customs, traditional clothing, batik fabric",
+		"duration": "4:06"
+	    },
+	    {
+		"id": "25",
+		"title": "Posting back to Scotland, Edinburgh, accent, job in shoe shop, retail",
+		"duration": "2:28"
+	    },
+	    {
+		"id": "26",
+		"title": "Posting in Bahrain, Middle East, accommodation, Western compound",
+		"duration": "1:07"
+	    },
+	    {
+		"id": "27",
+		"title": "Bahrain, Middle East, dress, clothing, purda, womenâ€™s clothing, veil",
+		"duration": "0:51"
+	    },
+	    {
+		"id": "28",
+		"title": "Bahrain, sheik, Muslims, social life, office job on military base, Concord airplane, Maldives, Gan",
+		"duration": "2:42"
+	    },
+	    {
+		"id": "29",
+		"title": "Bahrain, climate, desert, oil workers, BAPCO",
+		"duration": "1:56"
+	    },
+	    {
+		"id": "30",
+		"title": "Posting back to England, Gloucester",
+		"duration": "1:12"
+	    },
+	    {
+		"id": "31",
+		"title": "Posting to Portugal, Esterel, NATO base, accommodation, posting back to Innsworth, Norfolk",
+		"duration": "2:15"
+	    },
+	    {
+		"id": "32",
+		"title": "Posting to Cypress, building house in Omagh",
+		"duration": "2:27"
+	    },
+	    {
+		"id": "33",
+		"title": "Irish network in British military",
+		"duration": "0:30"
+	    },
+	    {
+		"id": "34",
+		"title": "Return, Omagh, family land, husband remained in High Wycombe, England for 4-5 years, naming of country roads",
+		"duration": "4:02"
+	    },
+	    {
+		"id": "35",
+		"title": "Return, climate, adjustment",
+		"duration": "1:49"
+	    },
+	    {
+		"id": "36",
+		"title": "Return, settling, job, independence, moving around, need for travel, holidays",
+		"duration": "2:00"
+	    },
+	    {
+		"id": "37",
+		"title": "Return, job at Ulster American Folk Park, guiding",
+		"duration": "1:45"
+	    },
+	    {
+		"id": "38",
+		"title": "Return, husband, settling",
+		"duration": "0:27"
+	    }
+	]
+    }
