@@ -1,0 +1,60 @@
+{
+    "document_types": [
+	{ 
+	    "id": 26,
+	    "name": "Diaries and Journals"
+	},
+	{
+	    "id": 25,
+	    "name": "Family Papers"
+	},
+	{
+	    "id": 32,
+	    "name": "Folklore, Song, Music"
+	},
+	{
+	    "id": 31,
+	    "name": "Hansard"
+	},
+	{
+	    "id": 24,
+	    "name": "Letters (Emigrants)"
+	},
+	{
+	    "id": 27,
+	    "name": "Letters (Other)"
+	},
+	{
+	    "id": 33,
+	    "name": "Newspapers (Births, Deaths, Marriages)"
+	},
+	{
+	    "id": 29,
+	    "name": "Newspapers (Extracts)"
+	},
+	{
+	    "id": 20,
+	    "name": "Newspapers (Shipping Advertisements)"
+	},
+	{
+	    "id": 35,
+	    "name": "Newspapers (Shipping News)"
+	},
+	{
+	    "id": 22,
+	    "name": "Official Documents"
+	},
+	{
+	    "id": 30,
+	    "name": "Periodical Extracts"
+	},
+	{
+	    "id": 40,
+	    "name": "Statistics"
+	},
+	{
+	    "id": 34,
+	    "name": "Wills"
+	}
+    ]
+}	
