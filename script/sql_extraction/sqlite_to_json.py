@@ -171,15 +171,7 @@ class SummaryDocument(SQLObject):
     source_type = StringCol()
     boost = IntCol()
 
-class VmrAgeGroup(SQLObject):
-    rid = IntCol()
-    name = StringCol()
-
 class VmrDenomination(SQLObject):
-    rid = IntCol()
-    name = StringCol()
-
-class VmrDestination(SQLObject):
     rid = IntCol()
     name = StringCol()
 
@@ -189,36 +181,24 @@ class VmrDestination(SQLObject):
     position_id = IntCol()
     vmr_interview_id = IntCol()
 
-class VmrEmigration(SQLObject):
-    rid = IntCol()
-    vmr_interview_id = IntCol()
-    vmr_decade_id = IntCol()
-
-class VmrGender(SQLObject):
-    rid = IntCol()
-    name = StringCol()
-
 class VmrInterview(SQLObject):
     rid = IntCol()
     code = StringCol()
     summary = StringCol()
     vmr_denomination_id = IntCol()
-    vmr_gender_id = IntCol()
+    gender = StringCol()
     birthplace_id = IntCol()
     residence_id = IntCol()
     childhood_residence_id = IntCol()
     duration = StringCol()
     date = DateCol()
-    vmr_age_group_id = IntCol()
+    age_group = IntCol()
+    emigration_decade = IntCol()
+    return_decade = IntCol()
 
 class VmrKeyword(SQLObject):
     rid = IntCol()
     name = StringCol()
-
-class VmrReturn(SQLObject):
-    rid = IntCol()
-    vmr_interview_id = IntCol()
-    vmr_decade_id = IntCol()
 
 class VmrTrack(SQLObject):
     rid = IntCol()
@@ -237,4 +217,3 @@ class JSONExtractor
             items.append = { 'track_id' : row.track_id, 'track_no' : row.track_no, 'duration' : row.duration, 'keywords' : row.keywords, 'vmr_interview_id' : row.vmr_interview_id }
 
         print simplejson.dumps(items)
-
