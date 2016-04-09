@@ -5,16 +5,6 @@ from sqlobject import *
 
 sqlhub.processConnection = connectionForURI('sqlite:/../../../api/db/development.sqlite3')
 
-class Collection(SQLObject):
-    rid = IntCol()
-    name = StringCol()
-
-class Enclosure(SQLObject):
-    rid = IntCol()
-    filename = StringCol()
-    ied_record_id = IntCol()
-    caption = StringCol()
-
 class EppiBreviate(SQLObject):
     rid = IntCol()
     title = StringCol()
@@ -160,19 +150,6 @@ class IedRecord(SQLObject):
     catid = StringCol()
     partialdate = StringCol()
 
-class Interview(SQLObject):
-    rid = IntCol()
-    name = StringCol()
-    summary = StringCol()
-    denomination_id = IntCol()
-    gender_id = IntCol()
-    place_of_birth = IntCol()
-    residence = IntCol()
-    childhood_residence = IntCol()
-    duration = IntCol()
-    timestamp = DateTimeCol()
-    age_group_id = IntCol()
-
 class Page(SQLObject):
     rid = IntCol()
     document_id = IntCol()
@@ -186,13 +163,6 @@ class Place(SQLObject):
     name = StringCol()
     lat = FloatCol()
     lng = FloatCol()
-
-class Site(SQLObject):
-    rid = IntCol()
-    subdomain = StringCol()
-    title = StringCol()
-    short_title = StringCol()
-    position = StringCol()
 
 class SummaryDocument(SQLObject):
     rid = IntCol()
