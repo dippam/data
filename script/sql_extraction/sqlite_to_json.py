@@ -175,7 +175,7 @@ class VmrDenomination(SQLObject):
     rid = IntCol()
     name = StringCol()
 
-class VmrDestination(SQLObject):
+class VmrDestinationList(SQLObject):
     rid = IntCol()
     place_id = IntCol()
     position_id = IntCol()
