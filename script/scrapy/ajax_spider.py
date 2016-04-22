@@ -19,6 +19,7 @@ class AjaxSpider(scrapy.Spider):
     # Pages is stored in the pagination section of the #toolbar.
     def parse_document(self, response):
         yield {
+            'id': response.url.split('/')[-1],
             'title': response.css('h1.title::text')[0].extract(),
             'source': response.css('#metadata dl dd::text')[0].extract(),
             'paperno': response.css('#metadata dl dd::text')[1].extract(),
