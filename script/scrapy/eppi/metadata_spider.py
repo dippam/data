@@ -19,18 +19,9 @@ class EppiSpider(scrapy.Spider):
     # Snarf the dd elements from the metadata list.
     # Pages is stored in the pagination section of the #toolbar.
     def parse_document(self, response):
-
         dts = response.css('#metadata dl dt::text')
         dds = response.css('#metadata dl dd::text')
         metadata = {}
-
-        # Document 17909 has the most (22) metadata fields.  Take it's metadata headers as the set
-        # of potential headers.
-        headings = ['Source', 'Paper No', 'Title Actual', 'Corp Authors', 'LC Subject Heading' 
-                    'Breviate Keywords', 'Personal Author', 'Publisher', 'Breviate Page', 'Tables', 
-                    'Series', 'Chairman', 'Astract', 'Pages Sectioned', 'Held By',
-                    'Additional Components', 'Start Page', 'Volume', 'Sub Volume', 'Session',
-                    'Published', 'Appointed']
 
         for i in range(len(dts)):
           dt = dts[i].extract()
