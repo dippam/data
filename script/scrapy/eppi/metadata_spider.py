@@ -21,16 +21,16 @@ class EppiSpider(scrapy.Spider):
     def parse_document(self, response):
         dts = response.css('#metadata dl dt::text')
         dds = response.css('#metadata dl dd::text')
-        metadata = {}
+        metadata = {
+            'id': response.url.split('/')[-1],
+            'title': response.css('h1.title::text')[0].extract(),
+            'pages': re.match(r"\d+", response.css('#toolbar .pagination span.info::text')[0].extract()).group()
+        }
 
         for i in range(len(dts)):
-          dt = dts[i].extract()
+          dt = dts[i].extract().lower().replace(' ', '_') # Convert to snake_case.
           dd = dds[i].extract()
           metadata[dt] = dd
-
-        metadata['id'] = response.url.split('/')[-1]
-        metadata['title'] = response.css('h1.title::text')[0].extract()
-        metadata['pages'] = re.match(r"\d+", response.css('#toolbar .pagination span.info::text')[0].extract()).group()
         
         yield metadata
 
